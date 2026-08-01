@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/palachev/grade-api:f63584414588a3956acde101d4c20927a96ee966
+        image: ghcr.io/palachev/grade-api:009da9480296fa3dd1bc5a8e1c5e8f6d996847ee
         ports:
         - containerPort: 3000
         resources:
